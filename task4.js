@@ -18,7 +18,6 @@ getWords = (str) => {
 let str="sad as sada asd czxv";
 let arr = getWords(str);
 let reverseStr="";
-for(let i=arr.length-1; i>=0; i--){
+for(let i=arr.length-1; i>=0; i--)
     reverseStr+=arr[i]+" ";
-}
 console.log(reverseStr);
